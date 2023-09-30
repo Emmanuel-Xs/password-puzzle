@@ -19,7 +19,7 @@ const ConfirmModal = ({ isCorrect }) => {
   }, [isCorrect]);
 
   if (isCorrect === "true") {
-    content = "You got the anwer right!";
+    content = "You got the answer right!";
   }
   if (isCorrect === "false") {
     content = "You got the wrong answer, try again or try another one";
