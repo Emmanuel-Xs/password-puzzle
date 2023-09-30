@@ -1,0 +1,50 @@
+:root {
+  --border-size: 3px;
+  --border-color: black;
+  --border-hover: rgb(105, 28, 2);
+  --bg-color: #ffe6e6;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+}
+
+h2 {
+  font-size: 1.8rem;
+  line-height: 1.3;
+}
+
+button {
+  margin-top: 2em;
+  align-self: center;
+  padding: 0.8em 1em;
+  background: transparent;
+  border: none;
+  border: 2px solid var(--border-color);
+  border-radius: 0.5em;
+  margin: 0.5em;
+}
+
+button:hover,
+button:focus-visible {
+  scale: 1.2;
+  border-color: var(--border-hover);
+}

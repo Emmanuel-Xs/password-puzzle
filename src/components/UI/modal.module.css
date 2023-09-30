@@ -1,0 +1,10 @@
+.modalContainer {
+  padding: 2em;
+  border-radius: 0.5em;
+  background: var(--bg-color);
+  border: none;
+}
+
+.modalContainer::backdrop {
+  background-color: hsla(33, 77%, 17%, 0.644);
+}
